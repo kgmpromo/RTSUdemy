@@ -8,7 +8,7 @@ AnimatorController:
   m_Name: Soldier AC
   serializedVersion: 5
   m_AnimatorParameters:
-  - m_Name: A Live
+  - m_Name: ALive
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
@@ -98,7 +98,7 @@ AnimatorStateTransition:
     m_ConditionEvent: Attack
     m_EventTreshold: 0
   - m_ConditionMode: 1
-    m_ConditionEvent: A Live
+    m_ConditionEvent: ALive
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102772682889056494}
@@ -145,7 +145,7 @@ AnimatorState:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: assault_combat_run
-  m_Speed: 1
+  m_Speed: 0.2
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 1101917802855559980}
